@@ -1,0 +1,32 @@
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin: auto 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 50px;
+    background-image: url('https://cdn.tyreplex.net/themes/moonlight/images/make_logo_sprite@2x.png?v=2300&tr=q-60');
+    background-size: cover;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }

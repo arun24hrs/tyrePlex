@@ -15,9 +15,10 @@ const Header = () => {
         "https://lh3.googleusercontent.com/places/AAcXr8ryfQqAWHDmAPXAuK5o1Sk81OiWbLXHHNRm8OTBLFZE41-3arlK-Q7aMXjXp106o8p8Dca6OTnSTynW6ykkg86zy1-j4JRkpXI=s1600-w300"
       ]
   return (
+    <> 
     <div className='w-11/12 m-auto'>
-        <CarouselComp images={headerImages}/>
-        <h1 className='my-5 mx-4 font-semibold text-2xl'>SHREE HEMKUNT TYRES AND SERVICES</h1>
+    <CarouselComp images={headerImages}/>
+        <h1 className='my-5 font-semibold text-2xl'>SHREE HEMKUNT TYRES AND SERVICES</h1>
         <div className='flex items-center gap-6'>
            <div className='flex gap-2 items-center'>
            <span className='bg-[#4CA72C] text-white px-2 py-1 align- rounded-md'>4.9</span>
@@ -46,6 +47,7 @@ const Header = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 
