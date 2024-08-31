@@ -95,11 +95,10 @@ const Navbar = () => {
       </div>
       <div className="menu hidden lg:block w-2/3 text-center">
         <ul className="font-md text-lg flex gap-7">
-          <li>
+          <li className="hover:text-red-500 hover:cursor-pointer">
           Car Tyres
         </li>
-        <li className="hover:text-red-500 hover:cursor-pointer">
-          Bike Tyres</li>
+        <li className="hover:text-red-500 hover:cursor-pointer">Bike Tyres</li>
           <li className="hover:text-red-500 hover:cursor-pointer">Tyre Pressure</li>
           <li className="hover:text-red-500 hover:cursor-pointer">Commercial Tyres</li>
           <li className="hover:text-red-500 hover:cursor-pointer">Accessories</li>

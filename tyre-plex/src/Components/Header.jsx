@@ -79,9 +79,10 @@ const Header = () => {
               </div>
             </div>
             <div>
+              <a href="https://www.tyreplex.com/?mod=dhtml&template=url_shortener_redirector&slug=df64b&utm_source=shorturl&utm_medium=tyreplex&utm_campaign=df64b&abbr=DHTML&page_full_url=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FCEAT%2BShoppe%2C%2BShree%2BHemkunt%2BTyres%2BAnd%2BServices%2F%4028.6426711%2C77.3789929%2C15z%2Fdata%3D%214m2%213m1%211s0x0%3A0xc268cb9ed2106c69%3Fsa%3DX%26ved%3D2ahUKEwizo8LqydjzAhXRSH0KHQyoDsMQ_BJ6BAhrEAM">
               <button className="border border-[#D32F2F] text-[#D32F2F] py-3 px-6 rounded-md">
                 Get Directions
-              </button>
+              </button></a>
             </div>
           </div>
         </div>
