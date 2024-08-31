@@ -76,7 +76,7 @@ const Footer = () => {
       </div>
       <hr />
       <div>
-        <p class="mb-0 text-gray-500 text-center sm:text-lg sm:mb-10">
+        <p class="mb-0 text-gray-500 text-center sm:text-lg sm:mb-10 lg:mb-2">
           ©2024 TyrePlex Technologies &amp; Commerce Pvt. Ltd. All Rights
           Reserved.
         </p>
