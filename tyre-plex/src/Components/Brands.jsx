@@ -27,7 +27,7 @@ const logos = [
 const Brands = () => {
   return (
     <div className="w-11/12 m-auto">
-      <h2 className="mt-7 font-bold text-lg">Deals in</h2>
+      <h2 className="mt-7 font-bold text-lg sm:text-xl lg:text-2xl">Deals in</h2>
       <div className="logo-grid">
       <Carousel
         additionalTransfrom={0}

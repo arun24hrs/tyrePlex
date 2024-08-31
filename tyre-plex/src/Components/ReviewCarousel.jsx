@@ -64,7 +64,7 @@ const ReviewCarousel = () => {
   dotListClass=""
   draggable
   focusOnSelect={false}
-  infinite
+  infinite={false}
   itemClass=""
   keyBoardControl
   minimumTouchDrag={80}
@@ -109,7 +109,7 @@ const ReviewCarousel = () => {
   swipeable
 >
         
-{googleReviews.map((el) => <Card variant="outlined" className='mx-2'>
+{googleReviews.map((el, index) => <Card key={index} variant="outlined" className='mx-2'>
             <CardContent>
               <div className="flex items-center gap-3">
                 <Avatar

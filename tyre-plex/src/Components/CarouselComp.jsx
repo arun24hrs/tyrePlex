@@ -1,18 +1,18 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
-// import 'react-multi-carousel/lib/styles.css';
+
 
 const CarouselComp = ({images}) => {
-    console.log(images);
+
 
   return (
-    <div className='flex'>
+    <div className='flex lg:w-1/2 lg:h-50%'>
 <Carousel
   additionalTransfrom={0}
   arrows={false}
   autoPlaySpeed={3000}
   centerMode={false}
-  className=""
+  className="h-[300px]"
   containerClass="container"
   dotListClass=""
   draggable
@@ -32,12 +32,12 @@ const CarouselComp = ({images}) => {
         max: 3000,
         min: 1024
       },
-      items: 3,
+      items: 1,
       partialVisibilityGutter: 40
     },
     mobile: {
       breakpoint: {
-        max: 464,
+        max: 640,
         min: 0
       },
       items: 1,
@@ -46,9 +46,9 @@ const CarouselComp = ({images}) => {
     tablet: {
       breakpoint: {
         max: 1024,
-        min: 464
+        min: 640
       },
-      items: 2,
+      items: 1,
       partialVisibilityGutter: 30
     }
   }}
@@ -62,7 +62,7 @@ const CarouselComp = ({images}) => {
   swipeable
 >
         
-           {images.map((el)=><div className='flex justify-center h-full w-11/12'><img className='w-full' src={el} alt="" /></div>)}
+           {images.map((el, index)=><div key={index} className='flex justify-center h-full w-11/12 lg:h-full'><img className='w-full' src={el} alt="" /></div>)}
       
        
       </Carousel>

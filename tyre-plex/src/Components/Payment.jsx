@@ -5,8 +5,8 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 const Payment = () => {
   return (
     <div className="w-11/12 m-auto">
-      <h2 className="font-bold text-lg my-4">Payment Mode</h2>
-      <div className="grid grid-cols-2 gap-3">
+      <h2 className="font-bold text-lg my-4 sm:text-xl lg:text-2xl">Payment Mode</h2>
+      <div className="grid grid-cols-2 gap-3 sm:w-2/3 lg:w-2/4">
         <div className="flex items-baseline gap-3">
           <div>
             <FontAwesomeIcon icon={faCheck} className="text-green-600 w-5 h-5 align-bottom" />
